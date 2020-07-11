@@ -4,7 +4,7 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-def WIN_COMBINATIONS = [
+ WIN_COMBINATIONS = [
   [0, 1, 2],
   [3, 4, 5],
   [6, 7, 8],
@@ -28,7 +28,7 @@ def won?(board)
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_combo
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      return win_combination 
+      return win_combination
     end
   }
   return false
